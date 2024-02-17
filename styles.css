@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Source Sans 3", sans-serif;
+    overflow-y:hidden;
+}
+
+main{
+    border:5px solid black;
+    width:23%;
+    height:85vh;
+    display:block;
+    margin:50px auto;
+    border-radius:20px; 
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+header{
+    width:100%;
+    display:flex;
+    padding:5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width:30%;
+}
+
+.profile-picture{
+    width:10%;
+    margin-right:20px;
+    border-radius:50%;
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: scroll;  
+}
+
+#post-section{
+    height:70vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+  
+.post-user-details{
+    display: flex;
+    gap:10px;
+    padding:10px;  
+}
+
+.post-name-location{
+    margin:0;
+}
+.post-profile-picture{
+    width:13%;
+    border-radius:50%;
+}
+
+.post-name{
+    margin:0;
+    font-size: 15px;
+}
+
+.post-location{
+    margin:0;
+    font-size:12px;
+    font-weight:600;
+}
+
+.post-image{
+    width:100%;
+    height:45vh;
+    cursor:pointer;
+}
+
+.post-bottom-section{
+    margin:0 10px;
+    width:90%;    
+}
+
+.fa-regular{
+    transform: scale(1.3);
+    margin:10px 20px 0 0;
+    cursor:pointer;
+}
+
+.post-likes{
+    margin:10px 0 5px;
+    font-size:14px;
+}
+
+.post-username-comment{
+    display: flex;
+    font-size:13px;
+    gap:5px;
+    justify-content: flex-start;
+    margin-bottom:25px;   
+}
+
+.post-username{
+    margin:0;
+}
+
+.post-comment{
+    margin:0;
+    font-weight:500;
+}
+
+.profile-picture:hover,.post-profile-picture:hover{
+    cursor:pointer;
+    opacity:0.8;
+}

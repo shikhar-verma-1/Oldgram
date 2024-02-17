@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "oldgram",
+  "version": "1.0.0",
+  "description": "Instagram Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Instagram",
+    "Clone"
+  ],
+  "author": "shikhar verma",
+  "license": "ISC"
+}
